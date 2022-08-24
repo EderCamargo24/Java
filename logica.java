@@ -1,5 +1,5 @@
 public class logica{
-    public static void main(String[] args) {
+    public static void main(String arg []) {
         boolean a=true,b=false;
         boolean c1,c2,c3,c4;
         //Tabla de verdad para la conjunción
@@ -23,8 +23,6 @@ public class logica{
         System.out.println(b+" o "+a+" : "+c3);
         System.out.println(b+" o "+b+" : "+c4);
 
-        //Tautología
-
-        
+        //Tautología        
     }
 }
